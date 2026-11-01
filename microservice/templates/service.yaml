@@ -11,5 +11,3 @@ spec:
     port: {{ .Values.servicePort }}
     targetPort: {{ .Values.containerPort }}
 
-servicePort: 8080
-servicetype: ClusterIP
